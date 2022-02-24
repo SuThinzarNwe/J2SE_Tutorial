@@ -1,6 +1,7 @@
 /**
  * 
  */
+package com.scm.system;
 
 /**
  * <h2>Tutorial06 Class</h2>
@@ -12,7 +13,6 @@
  *
  */
 public class Tutorial06 {
-	private static final int i = 0;
 
 	/**
 	 * <h2>main</h2>
@@ -25,22 +25,25 @@ public class Tutorial06 {
 	 */
 	public static void main(String[] args) {
 		int row = 7;
+		// loop between 1 to 7
 		for (int i = 1; i <= row; i++) {
+			// loop between 1 to 1
 			for (int j = 1; j < i; j++) {
 				System.out.print(" ");
 			}
-
+			// loop between i to 7
 			for (int j = i; j <= row; j++) {
 				System.out.print(j + " ");
 			}
 			System.out.println();
 		}
-
+		// loop between 6 to 1
 		for (int i = row - 1; i >= 1; i--) {
+			// loop between 1 to i-1
 			for (int j = 1; j < i; j++) {
 				System.out.print(" ");
 			}
-
+			// loop between i to 7
 			for (int j = i; j <= row; j++) {
 				System.out.print(j + " ");
 			}

@@ -1,3 +1,7 @@
+/**
+ * 
+ */
+package com.scm.system;
 
 /**
  * <h2>Tutorial01 Class</h2>
@@ -8,8 +12,8 @@
  * @author SuThinzarNwe
  *
  */
-
 public class Tutorial01 {
+
 	/**
 	 * <h2>main</h2>
 	 * <p>
@@ -20,6 +24,7 @@ public class Tutorial01 {
 	 * @return void
 	 */
 	public static void main(String[] args) {
+		// loop to get the number from 1 to 100
 		for (int i = 1; i <= 100; i++) {
 			System.out.println(i);
 		}

@@ -1,9 +1,10 @@
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * 
  */
+package com.scm.system;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * <h2>Tutorial12a Class</h2>
@@ -15,6 +16,7 @@ import java.util.Map;
  *
  */
 public class Tutorial12a {
+
 	/**
 	 * <h2>main</h2>
 	 * <p>
@@ -34,7 +36,7 @@ public class Tutorial12a {
 		fruits.put(4, "watermelon");
 		fruits.put(5, "guava");
 		for (Map.Entry x : fruits.entrySet()) {
-			System.out.println(x.getKey() +" "+x.getValue());
+			System.out.println(x.getKey() + " " + x.getValue());
 		}
 	}
 }

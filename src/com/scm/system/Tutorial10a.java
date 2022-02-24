@@ -1,6 +1,7 @@
 /**
  * 
  */
+package com.scm.system;
 
 /**
  * <h2>Tutorial10a Class</h2>
@@ -12,6 +13,7 @@
  *
  */
 public class Tutorial10a {
+
 	/**
 	 * <h2>main</h2>
 	 * <p>
@@ -24,6 +26,7 @@ public class Tutorial10a {
 	public static void main(String[] args) {
 		int[] num = new int[] { 3, 4, 5, 7, 9 };
 		int sum = 0;
+		// loop between 0 to 4
 		for (int i = 0; i < num.length; i++) {
 
 			sum = sum + num[i];

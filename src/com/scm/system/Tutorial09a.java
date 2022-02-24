@@ -1,3 +1,8 @@
+/**
+ * 
+ */
+package com.scm.system;
+
 import java.util.Scanner;
 
 /**
@@ -10,8 +15,9 @@ import java.util.Scanner;
  *
  */
 public class Tutorial09a {
+
 	/**
-	 * <h2> main</h2>
+	 * <h2>main</h2>
 	 * <p>
 	 * To get a number from the user and print whether it is positive or negative
 	 * </p>
@@ -25,6 +31,7 @@ public class Tutorial09a {
 		Scanner num = new Scanner(System.in);
 		System.out.println("Enter any number");
 		userNum = num.nextInt();
+		// to check the input number is greater than 0
 		if (userNum > 0) {
 			System.out.println("Your input number is positive");
 		} else {

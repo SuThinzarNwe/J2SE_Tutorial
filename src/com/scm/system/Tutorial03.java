@@ -1,36 +1,35 @@
 /**
  * 
  */
+package com.scm.system;
 
 /**
- * <h2>Tutorial04 Class</h2>
+ * <h2>Tutorial03 Class</h2>
  * <p>
- * Process for Displaying Tutorial04
+ * Process for Displaying Tutorial03
  * </p>
  * 
  * @author SuThinzarNwe
  *
  */
-public class Tutorial04 {
+public class Tutorial03 {
 
 	/**
 	 * <h2>main</h2>
 	 * <p>
-	 * To display right angle triangle
+	 * To display pattern like right triangle
 	 * </p>
 	 *
 	 * @param args
 	 * @return void
 	 */
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
-
-		for (int i = 1; i <= 10; i++) {
+		int row = 10;
+		// loop between 1 to 10
+		for (int i = 1; i <= row; i++) {
+			// to output the number
 			for (int j = 1; j <= i; j++) {
-				if (j != 1 && j % 2 != 0) {
-					System.out.print(" ");
-					continue;
-				}
-
 				System.out.print(j);
 			}
 			System.out.println(" ");

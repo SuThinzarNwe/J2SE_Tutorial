@@ -1,8 +1,9 @@
-import java.util.HashMap;
-
 /**
  * 
  */
+package com.scm.system;
+
+import java.util.HashMap;
 
 /**
  * <h2>Tutorial12b Class</h2>
@@ -14,6 +15,7 @@ import java.util.HashMap;
  *
  */
 public class Tutorial12b {
+
 	/**
 	 * <h2>main</h2>
 	 * <p>

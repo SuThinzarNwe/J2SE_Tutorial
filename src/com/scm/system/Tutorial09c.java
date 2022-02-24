@@ -1,3 +1,8 @@
+/**
+ * 
+ */
+package com.scm.system;
+
 import java.util.Scanner;
 
 /**
@@ -9,7 +14,8 @@ import java.util.Scanner;
  * @author SuThinzarNwe
  *
  */
-public class Tutorial9c {
+public class Tutorial09c {
+
 	/**
 	 * <h2>main</h2>
 	 * <p>
@@ -25,6 +31,7 @@ public class Tutorial9c {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the year");
 		year = input.nextInt();
+		// to check the year is divisible by 4/100/400
 		if (year % 4 == 0 || year % 100 == 0 || year % 400 == 0) {
 			System.out.println("This " + year + " is a leap year");
 		} else {

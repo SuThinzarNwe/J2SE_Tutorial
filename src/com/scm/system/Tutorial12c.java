@@ -1,8 +1,9 @@
-import java.util.HashMap;
-
 /**
  * 
  */
+package com.scm.system;
+
+import java.util.HashMap;
 
 /**
  * <h2>Tutorial12c Class</h2>
@@ -14,6 +15,7 @@ import java.util.HashMap;
  *
  */
 public class Tutorial12c {
+
 	/**
 	 * <h2>main</h2>
 	 * <p>
@@ -34,6 +36,7 @@ public class Tutorial12c {
 		System.out.println(" ");
 
 		System.out.println("Is key Blue exitsts?");
+		// to check the key Blue exists or not
 		if (map.containsKey("Blue")) {
 			System.out.println("Yes - " + map.get("Blue"));
 		} else {
@@ -41,6 +44,7 @@ public class Tutorial12c {
 		}
 
 		System.out.println("Is key Brown exitsts?");
+		// to check the key Brown exists or not
 		if (map.containsKey("Brown")) {
 			System.out.println("Yes" + map.get("Brown"));
 		} else {
