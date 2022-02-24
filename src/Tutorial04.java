@@ -1,28 +1,36 @@
+/**
+ * 
+ */
 
 /**
- * <h2>Tutorial03 Class</h2>
+ * <h2>Tutorial04 Class</h2>
  * <p>
- * Process for Displaying Tutorial03
+ * Process for Displaying Tutorial04
  * </p>
  * 
  * @author SuThinzarNwe
  *
  */
-public class Tutorial03 {
+public class Tutorial04 {
+
 	/**
 	 * <h2>main</h2>
 	 * <p>
-	 * To display pattern like right triangle
+	 * To display right angle triangle
 	 * </p>
 	 *
 	 * @param args
 	 * @return void
 	 */
-	@SuppressWarnings("unused")
 	public static void main(String[] args) {
-		int row = 10;
-		for (int i = 1; i <= row; i++) {
+
+		for (int i = 1; i <= 10; i++) {
 			for (int j = 1; j <= i; j++) {
+				if (j != 1 && j % 2 != 0) {
+					System.out.print(" ");
+					continue;
+				}
+
 				System.out.print(j);
 			}
 			System.out.println(" ");
