@@ -10,6 +10,15 @@ import java.util.Scanner;
  *
  */
 public class Tutorial09a {
+	/**
+	 * <h2> main</h2>
+	 * <p>
+	 * To get a number from the user and print whether it is positive or negative
+	 * </p>
+	 *
+	 * @param args
+	 * @return void
+	 */
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		int userNum;
